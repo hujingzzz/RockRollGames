@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RockRoll Games</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Navbar -->
+  <header class="bg-black text-white py-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <h1 class="text-2xl font-bold">RockRoll Games</h1>
+      <nav class="space-x-4">
+        <a href="#home" class="hover:underline">Home</a>
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="py-20 text-center bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold mb-4">Play Instantly. Roll with Fun!</h2>
+      <p class="text-lg max-w-2xl mx-auto">欢迎来到 RockRoll Games —— 一家专注于即点即玩的创意游戏工作室。我们致力于用轻量、快乐的方式，为全球玩家带来休闲游戏体验。</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6 text-center">About Us</h2>
+      <div class="max-w-3xl mx-auto text-lg space-y-4">
+        <p>厦门摇滚虎鲸网络科技有限公司是一家专注于 HTML5 和移动平台休闲游戏开发的游戏公司，团队年轻、充满创造力。</p>
+        <p>我们相信，简单好玩的游戏可以跨越语言与地域的限制，带来全球共鸣。</p>
+        <p>我们专注于“即点即玩”的轻量玩法，追求游戏设计的极致乐趣与全球发行能力。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6 text-center">Contact / Partner</h2>
+      <p class="text-center mb-10 max-w-xl mx-auto">欢迎发行商、广告平台、媒体渠道与我们取得联系！</p>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="max-w-xl mx-auto space-y-4">
+        <input type="text" name="company" placeholder="公司名称" required class="w-full border border-gray-300 p-3 rounded" />
+        <input type="text" name="name" placeholder="联系人姓名" required class="w-full border border-gray-300 p-3 rounded" />
+        <input type="email" name="email" placeholder="联系方式（邮箱）" required class="w-full border border-gray-300 p-3 rounded" />
+        <textarea name="message" placeholder="合作意向 / 留言" rows="5" required class="w-full border border-gray-300 p-3 rounded"></textarea>
+        <button type="submit" class="bg-black text-white px-6 py-3 rounded hover:bg-gray-800">提交</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-4">
+    <p>&copy; 2025 RockRoll Games. All rights reserved.</p>
+  </footer>
+</body>
+</html>
